@@ -2,15 +2,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: carrefinho                           
-      url-base: https://github.com/carrefinho   
+    - name: unspecworks  
+      url-base: https://github.com/unspecworks   
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: visorbearer-zmk-module              
-      remote: carrefinho                         
-      revision: main                           
+    - name: visorbearer-zmk-module   
+      remote: unspecworks  
+      revision: main 
   self:
     path: config
